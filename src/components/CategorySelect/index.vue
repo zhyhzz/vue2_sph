@@ -62,7 +62,7 @@ export default {
       }
     },
     //一级分类的select事件回调（当一级分类的option发生变化时获取的二级分类的数据）
-    async hander1() {
+    async handler1() {
       this.list2 = [];
       this.list3 = [];
       this.cForm.category2Id = "";
@@ -74,7 +74,7 @@ export default {
         this.list2 = result.data;
       }
     },
-    async hander2() {
+    async handler2() {
       //清除数据
       this.list3 = [];
       this.cForm.category3Id = "";
